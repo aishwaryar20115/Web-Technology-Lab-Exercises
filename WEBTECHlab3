@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+  <title>Registration form</title>
+
+  <script type="text/javascript">
+       function registration()
+    {
+
+        var name= document.getElementById("t1").value;
+        var email= document.getElementById("t2").value;
+        var uname= document.getElementById("t3").value;
+        var pwd= document.getElementById("t4").value;           
+        var cpwd= document.getElementById("t5").value;
+        var uzip = document.getElementById("t6").value;
+    
+        
+
+        var password = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-])/;
+        var letters = /^[A-Za-z]+$/;
+        var mail = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        var num = /^[0-9]{6}$/;
+
+        if(name=='')
+        {
+            alert('Please enter your name');
+        }
+        else if(!letters.test(name))
+        {
+            alert('Name field required only alphabet characters');
+        }
+        else if(email=='')
+        {
+            alert('Please enter your user email id');
+        }
+        else if (!mail.test(email))
+        {
+            alert('Invalid email');
+        }
+        else if(uname=='')
+        {
+            alert('Please enter the user name.');
+        }
+        else if(!letters.test(uname))
+        {
+            alert('User name field required only alphabet characters');
+        }
+        else if(uzip=='')
+        {
+            alert('Please enter your zipcode.');
+        }
+        else if (!num.test(uzip))
+         {
+            alert("Zip code must be 6 characters long number!");
+         }
+        else if(pwd=='')
+        {
+            alert('Please enter Password');
+        }
+        else if(cpwd=='')
+        {
+            alert('Enter Confirm Password');
+        }
+        else if(!password.test(pwd))
+        {
+            alert ('Upper case, Lower case, Special character and Numeric letter are required in Password filed');
+        }
+        else if(pwd != cpwd)
+        {
+            alert ('Password not Matched');
+        }
+        else if(document.getElementById("t5").value.length < 6)
+        {
+            alert ('Password minimum length is 6');
+        }
+        else if(document.getElementById("t5").value.length > 12)
+        {
+            alert ('Password max length is 12');
+        }
+        else
+        {       
+               confirm('Do you want to submit the form?') 
+               let pr = prompt("Please enter your password",cpwd)  
+               if (pr != null) {                              
+               alert('Thank You for Registration & You are Redirecting to the Website'); 
+               window.location = "https://www.google.com//"; 
+            }
+        }
+    }
+  </script>
+  </head>
+
+    <body>
+    <div id="main">
+    <div class="h-tag">
+    <h2><center>Register Your Account</center></h2>
+    </div>
+    <div class="login">
+    <table cellspacing="2" align="center" cellpadding="8" border="0">
+    <tr>
+    <td align="right">Enter Name :</td>
+    <td><input type="text" placeholder="Enter user here" id="t1" class="tb" /></td>
+    </tr>
+    <tr>
+    <td align="right">Enter Email ID :</td>
+    <td><input type="text" placeholder="Enter Email ID here" id="t2" class="tb" /></td>
+    </tr>
+    <tr>
+    <td align="right">Enter Username :</td>
+    <td><input type="text" placeholder="Enter Username here" id="t3" class="tb" /></td>
+    </tr>
+    <tr>
+        <td align="right">Enter Country :</td>
+        <td> <select id="t7">
+            <option value="1">--select country--</option>
+            <option value="2">India</option>
+            <option value="3">United States</option>
+            <option value="4">United Kingdom</option>
+            <option value="5">Japan</option>
+          </select></td>
+          <br><br>
+    </tr>
+    <tr>
+        <td align="right">Enter Zipcode :</td>
+        <td><input type="text" placeholder="Enter Zipcode here" id="t6" class="tb" /></td>
+        </tr>
+    <tr>
+    <td align="right">Enter Password :</td>
+    <td><input type="password" placeholder="Enter Password here" id="t4" class="tb" /></td>
+    </tr>
+    <tr>
+    <td align="right">Enter Confirm Password :</td>
+    <td><input type="password" placeholder="Enter Password here" id="t5" class="tb" /></td>
+    </tr>
+    <tr>
+    <td></td>
+    <td>
+    <input type="reset" value="Clear Form" id="res" class="btn" />
+    <input type="submit" value="Create Account" class="btn" onclick="registration()" /></td>
+    </tr>
+    </table>
+    </div>
+    </div>
+    </body>
+    </html>
