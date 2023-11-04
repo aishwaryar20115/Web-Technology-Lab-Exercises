@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    
+    
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1 id="name">Aishwarya R</h1>
+        
+        <div id="Personal details">
+        
+            <span class="mobile">Ph: 9444647424</span>
+        
+        </div>
+        
+        <div class="contact">
+            <div class="email">aishwaryar20115@gmail.com</div>
+        </div>
+        
+    </header>
+    
+    <div class="content" role=main>
+    
+        <section id="objective">
+            <h2 class="title">Objective</h2>
+            <div class="description">
+                <p>
+                    A challenging position in a progressive organization that will utilize my talents and provides me with an opportunity for personal and professional growth. 
+                </p>            
+            </div> 
+        </section>
+        
+        
+        <section id="Education">
+            <h2 class="title">Education</h2>
+            <div class="description">
+                
+                <table>
+                    <thead>
+                        <td> Year</td>
+                        <td>   Qualification</td>
+                        <td>   Institute/School</td>
+                        <td>   Result</td>
+                    </thead>
+                    
+                    
+                    <tr>
+                        <td>2019</td>
+                        <td>class 10th</td>
+                        <td>Good Shepherd Mat. Hr. Sec. School</td>
+                        <td>92.6%</td>
+                    </tr>
+                    
+                    <tr> 
+                        <td>2021</td>
+                        <td>class 12th</td>
+                        <td>Good Shepherd Mat. Hr. Sec. School</td>
+                        <td>89.9%</td>
+                    </tr>                   
+                    
+                    <tr> 
+                        <td>2025</td>
+                        <td>B.Tech CSE(iot) </td>
+                        <td>Shiv Nadar University Chennai</td>
+                        <td>CGPA 8.5</td>
+                    </tr>
+                </table>
+            
+            
+            </div> 
+        </section>
+            
+        <section id="projects">
+            <h2 class="title">Projects Undertaken</h2>
+            <div class="description">
+                
+                
+                <section class="project">
+                    <h3 class="title">Flood Alarm System using Arduino</h3>
+                    <div class="meta">
+                        <span class="field">Project Field</span> <span class="date">April 2023</span>
+                    </div>
+                    <p class="description">The circuit of the basement flood alarm is designed to sound off like an alert signal generator when water gets where it doesn’t belong. Powered by a compact battery, this alarm will provide an early alert that can help you ward off a damaging flood in your basement or crawl space. The circuit works on the simple, sound, and extensively proven principle of electrical circuits. The flood alarm has an aqua-sensor with two sensor probes. When the sensor probes make contact with water, the water completes the electrical circuit, which allows an alarm to sound. </p>
+                </section> 
+                
+                
+                <section class="project">
+                    <h3 class="title">Electricity Energy Monitoring With Arduino and NodeMCU</h3>
+                    <div class="meta">
+                        <span class="field">Project Field</span> <span class="date">May 2022</span>
+                    </div>
+                    <p class="description">A smart energy meter working example is proposed based on Internet of Things (loT). The proposed energy meter example controls and calculates the energy consumption using ESP32 board, a Wi-Fi module and uploads it to the cloud from where the consumer or producer can view the reading. Therefore, energy analyzation by the consumer becomes much easier and controllable.  Thus, this smart meter helps in home automation using IoT and enabling wireless communication which is a great step towards Digital India.</p>
+                </section> 
+
+                        
+                
+                </div> 
+            
+            </section>  
+        
+        <section id="Skills">
+            <h2 class="title">Technical skills</h2>
+            <div class="description">
+                
+            
+                    <tr>
+                        <td>>>MS Excel<br></td>
+                        <td>>>MS Word<br></td>
+                        <td>>>HTML<br></td>
+                        <td>>>C<br></td>
+                    </tr>
+
+                    <tr> 
+                        <td>>>Python<br></td>
+                        <td>>>Java<br></td>
+                        <td>>>Css<br></td>
+                        <td>>>Ableton live<br></td>
+                    </tr>
+        
+        
+        <section id="Extra-Curricular">
+            <h2 class="title">Interests</h2>
+            <div class="description">
+                
+                    <tr>>>learning new languages<br></tr>
+                    <tr>>>Music theory<br></tr>
+                    <tr>>>Keyboard/Piano<br></tr>
+                    <tr>>>Painting<br></tr>
+                    <tr>>>Music theory</tr>                
+    </div>
+        
+    </div> 
+    
+</body>
+</html>
